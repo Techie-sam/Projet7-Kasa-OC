@@ -1,52 +1,59 @@
+# Kasa - Location immobilière
 
-# Kasa
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![SASS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 
-C'est le 7ième projet de chez OpenClassrooms (Parcours Dev Web).
+## 📋 À propos
 
-## Scénario
+Kasa est un leader de la location d'appartements entre particuliers en France avec plus de 500 annonces postées chaque jour. Ce projet est une refonte complète de leur plateforme web, passant d'ASP.NET à une stack moderne React.
 
-Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France. Le site de Kasa a été codé il y a maintenant plus de 10 ans en ASP.NET avec un code legacy important. Une refonte totale de leur site web est nécessaire.
+## 🎯 Objectifs du projet
 
+- Développer l'ensemble de l'application et ses composants avec **React**
+- Créer les routes de l'application avec **React Router**
+- Suivre les maquettes **Figma** avec une approche **pixel-perfect**
+- Assurer un code maintenable grâce à des composants réutilisables
 
+## 🚀 Installation
 
-##  Mission
+1. Cloner le repository
+```bash
+git clone https://github.com/Techie-sam/Projet7-Kasa-OC.git
+```
 
-- Implémenter le front-end de Kasa.
+2. Installer les dépendances
+```bash
+npm install
+```
 
-- Mettre en place des composants avec React et les routes de l'application avec React Router.
+3. Lancer l'application
+```bash
+npm start
+```
+L'application sera accessible à l'adresse `http://localhost:3000`
 
+## 🛠️ Technologies utilisées
 
+- **React 18**
+- **React Router 6** pour la navigation
+- **SASS** pour le styling
+- **Node.js** pour l'environnement de développement
 
-## Usage
-Pour faire tourner ce projet, vous aurez besoin de NodeJS et de télécharger ce projet.
+## ✨ Fonctionnalités
 
-Front end :
+- Navigation fluide entre les pages
+- Carousel d'images pour les logements
+- Système de collapse pour les descriptions
+- Design responsive
+- Animations et transitions fluides
 
-Ouvrir le terminal de commande de votre IDE:
+## 📚 Ressources
 
-- NPM Install
-- NPM Start
-- Le projet doit se lancer dans votre navigateur et tourner sur votre serveur localhost:3000.
+- [Maquettes Figma](https://www.figma.com/file/bAnXDNqRKCRRP8mY2gcb5p/UI-Design-Kasa-FR?node-id=3%3A0)
+- [Données JSON](https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/Front-End+V2/P9+React+1/logements.json)
 
-## Technologies
-*Utilisées* :
+## 🎓 Contexte
 
-✅ Front-End: ReactJS
-
-
-✅ Back-End : NodeJS
-
-✅ SASS
-
-
-
-## Compétences évaluées
-- Initialiser une application avec Create React App.
-- Configurer la navigation entre les pages de l'application avec React Router.
-- Développer des éléments de l'interface d'un site web grâce à des composants React.
-## Infos Supp pour mener à bien le projet
-📌 [Maquettes Figma](https://www.figma.com/file/bAnXDNqRKCRRP8mY2gcb5p/UI-Design-Kasa-FR?node-id=3%3A0&t=Ap5hVHwenARrYPQg-0).
-
-📌 [Fichier JSON](https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/Front-End+V2/P9+React+1/logements.json).
-
-📌 [Coding guidelines](https://course.oc-static.com/projects/Front-End+V2/P9+React+1/Coding+guidelines+Kasa+FR.pdf).
+Projet réalisé dans le cadre du parcours **Développeur Web** d'OpenClassrooms (Projet 7)
